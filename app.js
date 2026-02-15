@@ -69,9 +69,9 @@ function checkAnswer(){
   if(user===correct && user.length>0){
     feedback.textContent='Правильно!';
     feedback.className='feedback ok';
-    setTimeout(()=>nextItem(),800);
+    setTimeout(()=>nextItem(),1200);
   }else{
-    feedback.innerHTML = `Неправильно. Правильный ответ: <strong>${current.rank}</strong>`;
+    feedback.textContent = 'Неправильно. Правильный ответ: '+current.rank;
     feedback.className='feedback wrong';
   }
 }
