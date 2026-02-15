@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Погоны — Тренажёр званий</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>Погоны — Тренажёр званий</h1>
+      <div class="modes">
+        <button id="mode-army" class="mode active">Сухопутные войска</button>
+        <button id="mode-navy" class="mode">Военно-морской флот</button>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="image-wrap">
+        <img id="rank-img" src="assets/placeholder.svg" alt="погон">
+      </div>
+
+      <form id="answer-form" class="answer">
+        <label for="answer">Введите звание</label>
+        <input id="answer" autocomplete="off" placeholder="Например: старший лейтенант" />
+        <div class="actions">
+          <button type="submit" id="submit">Отправить</button>
+          <button type="button" id="next">Пропустить →</button>
+        </div>
+      </form>
+
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+    </section>
+
+    <footer class="foot"></footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
