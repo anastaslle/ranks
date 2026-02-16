@@ -19,6 +19,7 @@
   {"id":17,"mode":"army","rank":"генерал лейтенант","image":"assets/Russia-Army-OF-7-2010.svg"},
   {"id":18,"mode":"army","rank":"генерал полковник","image":"assets/Russia-Army-OF-8-2010.svg"},
   {"id":19,"mode":"army","rank":"генерал армии","image":"assets/Russia-Army-OF-9-2013.svg"},
+  {"id":39,"mode":"army","rank":"маршал России","image":"assets/Russia-Army-OF-10-2010.svg"},
 
     {"id":20,"mode":"navy","rank":"матрос","image":"assets/RAF_N_R1-Matros_2010.svg"},
     {"id":21,"mode":"navy","rank":"старший матрос","image":"assets/RAF_N_R2-StMatros_2010.svg"},

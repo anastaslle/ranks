@@ -36,6 +36,23 @@
     <footer class="foot"></footer>
   </main>
 
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Отлично!</h2>
+      <div class="results">
+        <div class="result-stat">
+          <div class="stat-label">Правильных ответов</div>
+          <div class="stat-value" id="correct-count">0</div>
+        </div>
+        <div class="result-stat">
+          <div class="stat-label">Процент</div>
+          <div class="stat-value" id="percentage">0%</div>
+        </div>
+      </div>
+      <button id="modal-retry" class="modal-btn">Начать заново</button>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
